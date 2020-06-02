@@ -20,4 +20,4 @@ jobs:
       - name: Install Surge
         run: npm install -g surge
       - name: Run surge
-        run: surge ./build panacloud_bootcamp2020_prj002.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+        run: surge ./build panacloud_bootcamp2020_prj002.surge.sh --token ${{ secrets.SURGE_INTSTALL }}
